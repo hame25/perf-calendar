@@ -15,8 +15,9 @@ Let's start at the beginning of a users experience. The point at which the user 
 
 Contrasting the FCP seen from iOS and Android users.
 
-
-![FCP comparison between Android and iOS devices](https://cdn-images-1.medium.com/max/1600/1*Mj-miRf2Sli-Of2dhTcjPw.png)
+| ![FCP comparison between Android and iOS devices](https://cdn-images-1.medium.com/max/600/1*Mj-miRf2Sli-Of2dhTcjPw.png) |
+|:--------------------------------------:|
+| FCP comparison between Android and iOS devices                  |
 
 The 75th percentile for Android users is 400ms slower than that of iOS users, a significant 34% slower.
 
@@ -31,7 +32,9 @@ This metric could provide a good understanding of how our split of users are han
 
 We see a significant performance gap contrasting iOS and  Android users.
 
-![TTI comparision between iOS and Android devices](https://cdn-images-1.medium.com/max/1600/1*N3y46j2OzK9_y4_aInRjhw.png)
+| ![TTI comparision between iOS and Android devices](https://cdn-images-1.medium.com/max/600/1*N3y46j2OzK9_y4_aInRjhw.png) |
+|:--------------------------------------:|
+| TTI comparision between iOS and Android devices                 |
 
 The 75th percentile for Android users is 66% percent slower than the iOS equivalent, more than 2 seconds slower!
 
@@ -49,7 +52,9 @@ We'll use GeekBench's single core score as this is relevant for running applicat
 
 We then plot this data to visualise if there is any correlation between INP times and the devices CPU performance. I've taken the top 100(ish) Android devices by beacon count during the period.
 
-![Correlation of Geekbench score with INP measurement](https://cdn-images-1.medium.com/max/1600/1*9TNKz0qd5pdSMXNc6Qth2A.png)
+| ![Correlation of Geekbench score with INP measurement](https://cdn-images-1.medium.com/max/800/1*9TNKz0qd5pdSMXNc6Qth2A.png) |
+|:--------------------------------------:|
+| Correlation of Geekbench score with INP measurement                 |
 
 Probably not a huge surprise to this audience, we see a correlation. 
 
@@ -63,23 +68,32 @@ How might an iPhone compare to this? Although we haven't got access to a useful 
 
 The highest score for a Samsung Android device is for the ***Galaxy S24 Ultra***, scoring **2135**.
 
-![Samsung mobile device Geekbench scores](https://cdn-images-1.medium.com/max/1600/1*am0GUoMr5BivzOGnwa6m6Q.png)
+| ![Samsung mobile device Geekbench scores](https://cdn-images-1.medium.com/max/600/1*am0GUoMr5BivzOGnwa6m6Q.png) |
+|:--------------------------------------:|
+| Samsung mobile device Geekbench scores                |
+
 
 In contrast the highest scoring iOS device currently is the ***iPhone 16 Pro***, clocking up an impressive score of **3423**. Thats a **60%** increase on CPU performance score compared to the S24 Ultra!
 
-![iPhone Geekbench score](https://cdn-images-1.medium.com/max/1600/1*m13Zzjwo5-UluzgPT-xH8w.png)
+| ![iPhone Geekbench score](https://cdn-images-1.medium.com/max/600/1*m13Zzjwo5-UluzgPT-xH8w.png) |
+|:--------------------------------------:|
+| iPhone Geekbench score               |
 
 In fact, your looking at the **iPhone 12** until you find a previous version of the iPhone that scores less than todays fastest Samsung Android device. To add a little more perspective, this device was **first sold over 4 years ago!**
 
-![iPhone 12 Geekbench score](https://cdn-images-1.medium.com/max/1600/1*cSL6WcTYj3dzvzV49KYn8w.png)
+| ![iPhone 12 Geekbench score](https://cdn-images-1.medium.com/max/600/1*cSL6WcTYj3dzvzV49KYn8w.png) |
+|:--------------------------------------:|
+| iPhone 12 Geekbench score               |
 
 Using the correlation from above, we can make an extremely strong assumption that INP performance experienced on our latest iPhone is going to be faster than even the latest, greatest Android device on the market. In fact in many cases even our old iPhone stuck in a drawer somewhere would give the best Android devices a run for their money!
 
-##So why should we care about this?
+## So why should we care about this?
 
 Well, because Android users make up a huge slice of the mobile web audience. In the UK, its the greatest slice, with **52%** of the market share according to [statcounter](https://gs.statcounter.com/os-market-share/mobile/united-kingdom). If your working in online retail thats a lot of potential customers.
 
-![Android/iOS marketshare (Android is red line)](https://cdn-images-1.medium.com/max/1600/1*GjEU9r3hPhrSjMAK_A28Tg.png)
+| ![Android/iOS marketshare (Android is red line)](https://cdn-images-1.medium.com/max/600/1*GjEU9r3hPhrSjMAK_A28Tg.png) |
+|:--------------------------------------:|
+| Android/iOS marketshare (Android is red line)               |
 
 From the sample of data I looked at, only **43.6%** of page loads came came from Android device models that score **1000** or above on GeekBench (remember an iPhone purchased within the last 4 years is scoring > 2000). 
 
