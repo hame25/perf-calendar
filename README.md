@@ -95,9 +95,9 @@ Well, because Android users make up a huge slice of the mobile web audience. In 
 |:--------------------------------------:|
 | Android/iOS marketshare (Android is red line)               |
 
-From the sample of data I looked at, only **43.6%** of page loads came came from Android device models that score **1000** or above on GeekBench (remember an iPhone purchased within the last 4 years is scoring > 2000). 
+From the sample of data I looked at, only **43.6%** of Android page loads came from device models that score **1000** or above on GeekBench (remember an iPhone purchased within the last 4 years is scoring > 2000). 
 
-So thats **~29%** of overall users that could at best (and most likely worse) have a mobile device **3x times less powerful** than the latest high powered iPhone. How does the experience look to them?
+So thats **~29%** of overall web users that could at best (and most likely worse) have a mobile device **3x times less powerful** than the latest high powered iPhone. How does the experience look to them?
 
 Are we considering these users whilst developing and testing the applications we're responsible for?
 
